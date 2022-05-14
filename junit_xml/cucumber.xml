@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="8.495">
+<testcase classname="REQRES DELETE API Feature" name="ReqRes DELETE API to delete the specific user" time="3.444">
+<system-out><![CDATA[Given provide valid endpoint to delete the user.............................passed
+When the request is send to the server delete the user......................passed
+Then validate delete user response statuscode...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES GET API Feature" name="ReqRes GET API to list all users" time="0.219">
+<system-out><![CDATA[Given provide valid endpoint to fetch all users.............................passed
+When the request is send to the server......................................passed
+Then validate the response statuscode 200...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES GET API Feature" name="Reqres GET API to list all users with scenario outline" time="1.906">
+<system-out><![CDATA[Given provide valid endpoint to fetch all users.............................passed
+When the request is send to the server with page number as "2"..............passed
+Then validate the response of first user record having email as "michael.lawson@reqres.in".passed
+And validate response statuscode 200........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES GET API Feature" name="Reqres GET API to list all users with scenario outline 2" time="0.148">
+<system-out><![CDATA[Given provide valid endpoint to fetch all users.............................passed
+When the request is send to the server with page number as "1"..............passed
+Then validate the response of first user record having email as "george.bluth@reqres.in".passed
+And validate response statuscode 200........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES GET API Feature" name="ReqRes GET Single user" time="0.228">
+<system-out><![CDATA[Given provide valid endpoint to fetch the single user.......................passed
+When the request is send to the server to fetch single user.................passed
+Then validate the response statuscode 200...................................passed
+And validate the response body fields.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES GET API Feature" name="ReRes GET SingleUser Not Found" time="0.436">
+<system-out><![CDATA[Given provide valid endpoint to fetch the single userNotFound...............passed
+When the request is send to the server to fetch single user not found.......passed
+Then validate the response statuscode.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES POST API Feature" name="ReqRes POST API to create user" time="0.436">
+<system-out><![CDATA[Given provide valid endpoint to create user.................................passed
+When the request is send to the server with requestbody.....................passed
+Then validate create user response statuscode...............................passed
+And validate the responsebody fields........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES POST API Feature" name="ReqRes POST API to create users" time="0.393">
+<system-out><![CDATA[Given provide valid endpoint to create users................................passed
+When the request is send to the server with requestbody as "Morpheus" and "leader".passed
+Then validate create user response statuscode...............................passed
+And validate the responsebody fields........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES POST API Feature" name="ReqRes POST API to create users 2" time="0.393">
+<system-out><![CDATA[Given provide valid endpoint to create users................................passed
+When the request is send to the server with requestbody as "Ramesh Ch" and "Automation Test lead".passed
+Then validate create user response statuscode...............................passed
+And validate the responsebody fields........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="REQRES PUT API Feature" name="ReqRes PUT API to update user" time="0.499">
+<system-out><![CDATA[Given provide valid endpoint to update user.................................passed
+When the request is send to the server with requestbody to update...........passed
+Then validate update user response statuscode...............................passed
+And validate the update responsebody fields.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

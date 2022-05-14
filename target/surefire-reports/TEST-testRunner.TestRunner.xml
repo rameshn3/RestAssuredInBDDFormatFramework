@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testRunner.TestRunner" time="11.941" tests="47" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\eclipseworkspaceAug2018\RestAssuredAPIAutomationMay62022"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\eclipseworkspaceAug2018\RestAssuredAPIAutomationMay62022"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\eclipseworkspaceAug2018\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8206058251223388573.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_311/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_311/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_311/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ApacheMaven\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Gradle\gradle-6.5-all\gradle-6.5\bin;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;;C:\eclipse64\eclipse-java-photon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="java.class.path" value="C:\eclipse64\eclipse-java-photon-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\eclipseworkspaceAug2018\RestAssuredAPIAutomationMay62022\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="provide valid endpoint to delete the user" classname="ReqRes DELETE API to delete the specific user" time="0.667"/>
+  <testcase name="the request is send to the server delete the user" classname="ReqRes DELETE API to delete the specific user" time="2.71"/>
+  <testcase name="validate delete user response statuscode" classname="ReqRes DELETE API to delete the specific user" time="0.02"/>
+  <testcase name="ReqRes DELETE API to delete the specific user" classname="ReqRes DELETE API to delete the specific user" time="0.029"/>
+  <testcase name="provide valid endpoint to fetch all users" classname="ReqRes GET API to list all users" time="0.006"/>
+  <testcase name="the request is send to the server" classname="ReqRes GET API to list all users" time="0.204"/>
+  <testcase name="validate the response statuscode 200" classname="ReqRes GET API to list all users" time="0"/>
+  <testcase name="ReqRes GET API to list all users" classname="ReqRes GET API to list all users" time="0.001"/>
+  <testcase name="provide valid endpoint to fetch all users" classname="Reqres GET API to list all users with scenario outline #1" time="0.002"/>
+  <testcase name="the request is send to the server with page number as &quot;2&quot;" classname="Reqres GET API to list all users with scenario outline #1" time="0.083"/>
+  <testcase name="validate the response of first user record having email as &quot;michael.lawson@reqres.in&quot;" classname="Reqres GET API to list all users with scenario outline #1" time="1.813"/>
+  <testcase name="validate response statuscode 200" classname="Reqres GET API to list all users with scenario outline #1" time="0.001"/>
+  <testcase name="Reqres GET API to list all users with scenario outline #1" classname="Reqres GET API to list all users with scenario outline #1" time="0.002"/>
+  <testcase name="provide valid endpoint to fetch all users" classname="Reqres GET API to list all users with scenario outline #2" time="0.003"/>
+  <testcase name="the request is send to the server with page number as &quot;1&quot;" classname="Reqres GET API to list all users with scenario outline #2" time="0.083"/>
+  <testcase name="validate the response of first user record having email as &quot;george.bluth@reqres.in&quot;" classname="Reqres GET API to list all users with scenario outline #2" time="0.047"/>
+  <testcase name="validate response statuscode 200" classname="Reqres GET API to list all users with scenario outline #2" time="0"/>
+  <testcase name="Reqres GET API to list all users with scenario outline #2" classname="Reqres GET API to list all users with scenario outline #2" time="0"/>
+  <testcase name="provide valid endpoint to fetch the single user" classname="ReqRes GET Single user" time="0.009"/>
+  <testcase name="the request is send to the server to fetch single user" classname="ReqRes GET Single user" time="0.093"/>
+  <testcase name="validate the response statuscode 200" classname="ReqRes GET Single user" time="0"/>
+  <testcase name="validate the response body fields" classname="ReqRes GET Single user" time="0.126"/>
+  <testcase name="ReqRes GET Single user" classname="ReqRes GET Single user" time="0.126"/>
+  <testcase name="provide valid endpoint to fetch the single userNotFound" classname="ReRes GET SingleUser Not Found" time="0.001"/>
+  <testcase name="the request is send to the server to fetch single user not found" classname="ReRes GET SingleUser Not Found" time="0.431"/>
+  <testcase name="validate the response statuscode" classname="ReRes GET SingleUser Not Found" time="0"/>
+  <testcase name="ReRes GET SingleUser Not Found" classname="ReRes GET SingleUser Not Found" time="0.001"/>
+  <testcase name="provide valid endpoint to create user" classname="ReqRes POST API to create user" time="0.01"/>
+  <testcase name="the request is send to the server with requestbody" classname="ReqRes POST API to create user" time="0.393"/>
+  <testcase name="validate create user response statuscode" classname="ReqRes POST API to create user" time="0.003"/>
+  <testcase name="validate the responsebody fields" classname="ReqRes POST API to create user" time="0.028"/>
+  <testcase name="ReqRes POST API to create user" classname="ReqRes POST API to create user" time="0.028"/>
+  <testcase name="provide valid endpoint to create users" classname="ReqRes POST API to create users #1" time="0.001"/>
+  <testcase name="the request is send to the server with requestbody as &quot;Morpheus&quot; and &quot;leader&quot;" classname="ReqRes POST API to create users #1" time="0.357"/>
+  <testcase name="validate create user response statuscode" classname="ReqRes POST API to create users #1" time="0"/>
+  <testcase name="validate the responsebody fields" classname="ReqRes POST API to create users #1" time="0.031"/>
+  <testcase name="ReqRes POST API to create users #1" classname="ReqRes POST API to create users #1" time="0.032"/>
+  <testcase name="provide valid endpoint to create users" classname="ReqRes POST API to create users #2" time="0"/>
+  <testcase name="the request is send to the server with requestbody as &quot;Ramesh Ch&quot; and &quot;Automation Test lead&quot;" classname="ReqRes POST API to create users #2" time="0.352"/>
+  <testcase name="validate create user response statuscode" classname="ReqRes POST API to create users #2" time="0.001"/>
+  <testcase name="validate the responsebody fields" classname="ReqRes POST API to create users #2" time="0.034"/>
+  <testcase name="ReqRes POST API to create users #2" classname="ReqRes POST API to create users #2" time="0.035"/>
+  <testcase name="provide valid endpoint to update user" classname="ReqRes PUT API to update user" time="0"/>
+  <testcase name="the request is send to the server with requestbody to update" classname="ReqRes PUT API to update user" time="0.445"/>
+  <testcase name="validate update user response statuscode" classname="ReqRes PUT API to update user" time="0.001"/>
+  <testcase name="validate the update responsebody fields" classname="ReqRes PUT API to update user" time="0.05"/>
+  <testcase name="ReqRes PUT API to update user" classname="ReqRes PUT API to update user" time="0.052"/>
+</testsuite>
